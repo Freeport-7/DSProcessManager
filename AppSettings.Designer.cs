@@ -61,7 +61,7 @@ namespace DSProcessManager {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1200")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2048")]
         public decimal setRestartMaxMemory {
             get {
                 return ((decimal)(this["setRestartMaxMemory"]));
@@ -97,7 +97,7 @@ namespace DSProcessManager {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("900")]
+        [global::System.Configuration.DefaultSettingValueAttribute("300")]
         public decimal setStartupMaxReplyTime {
             get {
                 return ((decimal)(this["setStartupMaxReplyTime"]));
@@ -133,8 +133,8 @@ namespace DSProcessManager {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Notice to Space Farers : Long range probes indicates approaching ION storms in 10" +
-            " minutes.")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Notice to all Freelancers : The server will be restarting in 10 minutes. " +
+            "Please plan to dock somewhere soon.")]
         public string setDailyRestartWarning10min {
             get {
                 return ((string)(this["setDailyRestartWarning10min"]));
@@ -146,9 +146,8 @@ namespace DSProcessManager {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Sirius Meteorological Institute, Late Warning department leader, The Right Honour" +
-            "able Fellow Hoodlum, Esq., confirms approaching ION storm will reach Sirius in 5" +
-            " minutes. Proceed to nearest docking facility at best speed. ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Notice to all Freelancers : The server will be restarting in 5 minutes. " +
+            "Docking immediately is highly recommended.")]
         public string setDailyRestartWarning5min {
             get {
                 return ((string)(this["setDailyRestartWarning5min"]));
@@ -160,9 +159,8 @@ namespace DSProcessManager {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Outer rim Sirius research stations reports ION storms will hit in 1 minute. All v" +
-            "essels are advised to dock now. Expected duration of system wide darkening to be" +
-            " 12 minutes.")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Notice to all Freelancers : The server will be restarting in 1 minute. " +
+            "The server should return sometime within the next 20 minutes.")]
         public string setDailyRestartWarning1min {
             get {
                 return ((string)(this["setDailyRestartWarning1min"]));

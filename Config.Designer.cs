@@ -371,7 +371,7 @@
             // 
             this.numericUpDown3.Location = new System.Drawing.Point(292, 48);
             this.numericUpDown3.Maximum = new decimal(new int[] {
-            10000,
+            20000,
             0,
             0,
             0});
@@ -383,7 +383,7 @@
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(292, 22);
             this.numericUpDown2.Maximum = new decimal(new int[] {
-            2000,
+            8192,
             0,
             0,
             0});
@@ -440,7 +440,7 @@
             // 
             this.numericUpDown4.Location = new System.Drawing.Point(292, 74);
             this.numericUpDown4.Maximum = new decimal(new int[] {
-            2000,
+            300,
             0,
             0,
             0});
